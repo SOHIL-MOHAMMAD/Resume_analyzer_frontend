@@ -3,7 +3,7 @@ import { SN_Pro } from "next/font/google"; // 1. Import the font
 import Navbar from "./component/Navbar";
 import "./globals.css";
 import LenisProvider from "./providers/LenisProvider";
-
+import Footer from "./component/Footer";
 const snPro = SN_Pro({
   subsets: ["latin"],
   variable: "--font-sans", 
@@ -29,6 +29,7 @@ export default function RootLayout({
             <span>
               {children}
             </span>
+            <Footer/>
         </LenisProvider>
       </body>
     </html>

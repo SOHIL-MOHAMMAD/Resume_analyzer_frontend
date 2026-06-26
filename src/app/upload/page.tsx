@@ -1,9 +1,13 @@
 import React from 'react'
-
+import UploadSec from './UploadFolder/UploadSec'
+import ContextSec from './UploadFolder/ContextSec'
+import Info from './UploadFolder/Info'
 const Upload = () => {
   return (
     <div>
-      this is upload page
+      <UploadSec/>
+      <ContextSec/>
+      <Info/>
     </div>
   )
 }
